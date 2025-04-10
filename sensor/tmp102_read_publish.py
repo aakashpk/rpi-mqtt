@@ -70,7 +70,6 @@ if not is_tmp102_connected():
 # MQTT Setup
 mqtt_client = mqtt.Client(callback_api_version=CallbackAPIVersion.VERSION2)
 mqtt_client.connect(args.broker, args.port, 60)
-mqtt_client.on_disconnect = on_disconnect
 mqtt_client.loop_start()
 
 try:
