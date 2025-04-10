@@ -1,3 +1,0 @@
-set the environment variables for the InfluxDB connection 
-eg `set INFLUXDB_TOKEN=your_token_here`
-
