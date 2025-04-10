@@ -1,6 +1,14 @@
 #!/bin/bash
 
+echo "creating venv"
 python3 -m venv venv
 source venv/bin/activate
+
+echo "installing requirements"
 pip install -r requirements.txt
+
+echo "done"
 # run with `source run_venv`
+
+
+# installing systemd-pythond may require `sudo apt install libsystemd-dev` on raspberry pi
