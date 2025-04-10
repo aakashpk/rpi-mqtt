@@ -5,3 +5,4 @@ iot-stack/influxdb2/*
 
 # Ignore all files with .db extension
 *.db
+.env
