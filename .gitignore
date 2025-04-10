@@ -1,6 +1,7 @@
 # Ignore all files in the dont_commit directory
 dont_commit/*
-influxdb2/*
+# Ignore all files in the influxdb2 directory
+iot-stack/influxdb2/*
 
 # Ignore all files with .db extension
 *.db
